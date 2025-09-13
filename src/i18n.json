@@ -1,0 +1,32 @@
+{
+  "i18n": {
+    "es": {
+      "home": {
+        "title": "Página principal",
+        "description": "Esto es la página sobre nosotros",
+        "link": "Ir a Sobre nosotros"
+      },
+      "about": {
+        "title": "Sobre nosotros",
+        "subtitle": "Marca falsa",
+        "description": "Esto es la pagina sobre nosotros",
+        "link": "Ir a pagina principal",
+        "imgAlt": "Marca falsa"
+      }
+    },
+    "en": {
+      "home": {
+        "title": "Home",
+        "description": "This is the home page",
+        "link": "Go to About"
+      },
+      "about": {
+        "title": "About us",
+        "subtitle": "Fake Brand",
+        "description": "This is an about page",
+        "link": "Go to Home",
+        "imgAlt": "This is a fake brand"
+      }
+    }
+  }
+}
