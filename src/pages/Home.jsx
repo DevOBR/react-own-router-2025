@@ -1,4 +1,4 @@
-import Link from '../Link.jsx'
+import Link from '../Components/Link/Link.jsx'
 import { useTranslate } from '../hooks/useTranslate.js'
 
 export default function Home({ routeParams }) {

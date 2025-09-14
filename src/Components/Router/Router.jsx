@@ -1,7 +1,7 @@
-import { EVENTS } from './const.js'
+import { EVENTS } from '../../const.js'
 import { useState, useEffect, Children } from 'react'
 import { match } from 'path-to-regexp'
-import { getLocationPathName } from './utility.js'
+import { getLocationPathName } from '../../utility.js'
 
 export default function Router({
   routes = [],

@@ -1,5 +1,5 @@
-import { BUTTONS, TARGETS } from './const.js'
-import { navigate } from './utility.js'
+import { BUTTONS, TARGETS } from '../../const.js'
+import { navigate } from '../../utility.js'
 
 export default function Link({ to, target, ...props }) {
   const handleClick = (event) => {

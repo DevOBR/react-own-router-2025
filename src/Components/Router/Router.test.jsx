@@ -1,12 +1,13 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { render, screen, cleanup, fireEvent } from '@testing-library/react'
-import Router from './Router.jsx'
-import Route from './Route.jsx'
-import Link from './Link.jsx'
-import { getLocationPathName, navigate } from './utility.js'
-import { EVENTS } from './const.js'
 
-vi.mock('./utility.js', () => ({
+import Router from './Router.jsx'
+import Route from '../Route/Route.jsx'
+import Link from '../Link/Link.jsx'
+import { EVENTS } from '../../const.js'
+import { getLocationPathName, navigate } from '../../utility.js'
+
+vi.mock('../../utility.js', () => ({
   getLocationPathName: vi.fn(),
   navigate: vi.fn()
 }))

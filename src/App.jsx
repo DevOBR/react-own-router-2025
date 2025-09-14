@@ -2,8 +2,8 @@ import { lazy, Suspense } from 'react'
 import './App.css'
 import NotFound from './pages/NotFound.jsx'
 import Search from './pages/Search.jsx'
-import Router from './Router.jsx'
-import Route from './Route.jsx'
+import Router from './Components/Router/Router.jsx'
+import Route from './Components/Route/Route.jsx'
 
 // here we are using daynamic import
 const LazyHome = lazy(() => import('./pages/Home.jsx'))
